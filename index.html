@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e5ec;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+        }
+        .gallery-item {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #333;
+            object-fit: cover;
+        }
+        .gallery-item p {
+            margin-top: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Curriculum Vitae</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="Joss/index.html"><img src="Joss/img/jos.jpg" alt="Joselyn"></a>
+            <p>Joselyn Ramos</p>
+        </div>
+        <div class="gallery-item">
+            <a href="Leonel/index.html"><img src="Leonel/img/Leonel.png" alt="Leonel Yanza"></a>
+            <p>Leonel Yanza</p>
+        </div>
+        <div class="gallery-item">
+            <a href="Joel/index.html"><img src="Joel/imagen/joel.png" alt="Joel Lopez"></a>
+            <p>Joel Lopez</p>
+        </div>
+        <div class="gallery-item">
+            <a href="Juan/Hoja_de_vida_Juan_Pinzón.html"><img src="Juan/img/FotoJuanPablo.jpg" alt="Juan Pinzón"></a>
+            <p>Juan Pinzón</p>
+        </div>
+    </div>
+</body>
+</html>
